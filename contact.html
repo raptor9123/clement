@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Clément Cabut</title>
+    <link rel="stylesheet" href="css-site-internet.css">
+</head>
+<body>
+    <header>
+        <img src=".\logo-iut.png" alt="Logo UnivTours" class="logo">
+        <h1>Contact</h1>
+        <nav>
+            <ul>
+                <li><a href="page1sepresentersurintenet.html">Accueil</a></li>
+                <li><a href="interests.html">Centres d'intérêt</a></li>
+                <li><a href="career.html">Projet professionnel</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="grid-container">
+            <section class="contact-form">
+                <h2>Contactez-moi</h2>
+                <form action="submit_form.php" method="POST">
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <button type="submit">Envoyer</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Clément Cabut - Toute reproduction est interdite.</p>
+    </footer>
+</body>
+</html>
